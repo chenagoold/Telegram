@@ -1,0 +1,68 @@
+                             Bot_webhook
+
+1.sudo apt install virtualenv
+
+2.mkdir venv
+
+3.source venv/bin/activate
+
+4. mkdir app
+
+5. pip install flask
+
+6.touche main.py
+
+
+                   register pythonanywhere.com
+
+
+1. Bash console 
+
+2. virtualenv venv --python=python3.8
+
+3.source venv/bin/activate
+
+4. pip install Flask
+
+/home/Dimobix
+    new direcory (bot) uploads file
+
+
+web app
+
+Code: home/Dimobix/bot
+
+virtualenv:
+
+/home/Dimobix/venv
+
+
+/var/www/dimobix/pythonanywhere_com_swsgi.py
+
+import sys  /open code
+
+path ='/home/Dimobix/bot'
+if path not in sys.path:
+     sys.path.append(path)
+
+
+from main import app as aplication
+
+https.(venv)
+
+pip install flask-sslify
+
+Tunel 
+
+localhost.run
+ssh -R 80:localhost:5000 -P 2222 ssh.localhost.run
+
+Регулрные выражения
+https://pythex.org
+pip freeze
+
+
+
+---------------------------------
+https://core.telegram.org/bots/api#getupdates
+--------------------------------
